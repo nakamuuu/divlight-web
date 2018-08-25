@@ -1,0 +1,30 @@
+body {
+  background-color: #eceff1;
+}
+
+h1 {
+  border-bottom: dotted #455a64 4px;
+  color: #455a64;
+  font-size: 32px;
+  font-weight: bolder;
+  line-height: 1.2;
+  margin: 8px 0;
+  padding: 16px 0;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 40px 0 32px 0;
+}
+
+.policy {
+  background-color: #ffffff;
+  padding: 16px 32px;
+}
+
+.policy p {
+  line-height: 1.8;
+  font-size: 16px;
+  margin: 16px 0;
+}

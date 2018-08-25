@@ -1,0 +1,148 @@
+html {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  min-width: 360px;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+}
+
+
+/* DIVLIGHT.net Header */
+
+.header-wrapper {
+  height: 84px;
+  width: 100%;
+}
+
+.header {
+  background-color: #ffffff;
+  border-bottom: 4px solid #455a64;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+  height: 80px;
+  left: 0px;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+}
+
+.header-logo {
+  display: inline-block;
+  float: left;
+  margin: 20px 0 0 32px;
+  height: 40px;
+}
+
+.header-logo:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  -ms-filter: "alpha( opacity=80 )";
+}
+
+.header-logo img {
+  height: 100%;
+}
+
+.header-link {
+  display: inline-block;
+  float: right;
+  margin: 20px 32px 0 0;
+  height: 40px;
+}
+
+.header-link:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  -ms-filter: "alpha( opacity=80 )";
+}
+
+.header-link img {
+  height: 100%;
+}
+
+
+/* DIVLIGHT.net Footer */
+
+.footer {
+  background-color: #455a64;
+  box-shadow: 0 -2px 3px rgba(0, 0, 0, .1);
+  min-height: 12px;
+  overflow: hidden;
+  padding: 20px 0px;
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: 0 -2px 3px rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 -2px 3px rgba(0, 0, 0, .1);
+}
+
+.footer-link {
+  color: #ffffff;
+  display: block;
+  float: left;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 32px;
+}
+
+.footer-link:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  -ms-filter: "alpha( opacity=80 )";
+}
+
+.footer-copyright {
+  color: #ffffff;
+  float: right;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: right;
+  margin: 0 32px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .header-spacer {
+    height: 68px;
+    width: 100%;
+  }
+  .header {
+    height: 64px;
+  }
+  .header-logo {
+    float: none;
+    height: 32px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 16px;
+  }
+  .header-link {
+    float: none;
+    height: 24px;
+    margin: 0 8px 0 0;
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    top: 16px;
+  }
+  .footer-link {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+  }
+  .footer-copyright {
+    float: none;
+    font-size: 14px;
+    text-align: center;
+    margin: 8px 8px 0 8px;
+  }
+}
