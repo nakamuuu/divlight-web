@@ -107,7 +107,7 @@ html {
 }
 
 @media only screen and (max-device-width: 480px) {
-  .header-spacer {
+  .header-wrapper {
     height: 68px;
     width: 100%;
   }
